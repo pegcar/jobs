@@ -1952,6 +1952,19 @@
         text-align: left;
       }
 
+      div.description.major ul {
+        padding: 0.5em 1.5em 0 1.5em;
+      }
+
+      div.description.major ul li {
+        margin-top: 0.5em;
+        text-align: left;
+        color: #888888;
+        list-style: inside;
+        line-height: 1.5em;
+        letter-spacing: 0.075em;
+      }
+
       div.description.major.last {
         border-bottom: 0;
         margin-bottom: 0;
@@ -2421,7 +2434,7 @@
 
   .feature {
     position: relative;
-    height: 20em;
+    height: 22em;
   }
 
     .feature:after {
@@ -2446,7 +2459,6 @@
         display: block;
         min-height: 100%;
         min-width: 100%;
-        position: absolute;
       }
 
     .feature:before {
@@ -2459,7 +2471,7 @@
 
     .feature .content {
       display: inline-block;
-      padding: 3.5em;
+      padding: 0 3.5em;
       vertical-align: middle;
       width: 48%;
     }
@@ -2767,7 +2779,7 @@
     /* Header */
 
       #header {
-        padding: 8em 0 16em 0;
+        padding: 8em 2em 16em;
       }
 
         #header h1 {
@@ -2825,7 +2837,7 @@
     /* Feature */
 
       .feature {
-        height: 18em;
+        height: 22em;
       }
 
         .feature .content {
@@ -2838,7 +2850,7 @@
         background-attachment: scroll,              scroll,             scroll;
         background-image: url("images/top-1600.svg"), url("images/overlay.png"), url("../../images/header.jpg");
         background-size: 1600px 230px,          auto,             cover;
-        padding: 6em 0 12em 0;
+        padding: 6em 4em 12em;
       }
 
         #header:before {
@@ -2936,7 +2948,7 @@
           display: none;
         }
 
-        div.description.major p {
+        div.description.major p, div.description.major ul li {
           font-size: 0.8em;
         }
 
